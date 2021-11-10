@@ -12,11 +12,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Document</title>
-    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/front.css">    
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>About</title>
   </head>
   <style>
-    .header {
+    .header{
+      margin: -11px;
+    }
+    .header1 {
       
       margin-bottom: 72px;
       height: 306px;
@@ -26,14 +35,14 @@
       top: 0;
       background-color: #5741d9;
     }
-    .header p,
-    .header h2 {
+    .header1 p,
+    .header1 h2 {
       color: #ffffff;
       margin: 10px;
       padding: 20px;
       font-size: 22px;
     }
-    .header h2 {
+    .header1 h2 {
       font-size: 46px;
       color: #ffffff;
     }
@@ -144,7 +153,7 @@
     .article3 h3 {
       color: #b993ff;
       font-size: 14px;
-      ont-family: "Celias";
+      font-family: "Celias";
       font-weight: 500;
     }
     .article1 p,
@@ -165,6 +174,7 @@
     }
     .topnav input {
       width: 100%;
+      color: black;
     }
     .topnav i {
       position: absolute;
@@ -175,12 +185,35 @@
   </style>
   <body>
     <!-- <h2>hhh</h2> -->
-    <div class="header">
-      <p>Support</p>
+    <div class="container">
+      <div class="header">
+          <h2>CRYPTOXs</h2>
+          <input type="checkbox" id="chk" />
+          <label for="chk" class="show-btn">
+            <i class="fa fa-bars"></i>
+          </label>
+          <ul class="menu">
+              
+            <li><a href ="../index.html">Home</a></li>
+            <li><a href="./Prices.html" target="_blank">Prices</a></li>
+            <li><a href="./podcast.html">Podcast</a></li>
+            <li><a href="./about.html">About US</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./contactUs.html">Contact Us</a></li>
+             
+                  <label for="chk" class="hide-btn">
+                      <i class="fa fa-times"></i>
+                    </label>
+                  
+  
+          </ul>
+      </div>
+      </div>
+    <div class="header1">
       <h2>How can we help YOU?</h2>
     </div>
 
-    <div class="topnav"><input type="text" placeholder="Search.." /></div>
+    <div class="topnav"><input type="text" placeholder="Search Here.." style="background-color:whitesmoke ; color: black;"/></div>
     <div class="container">
       <div class="data1" style="background-color: #0385e6">
         <h3>Getting Started</h3>

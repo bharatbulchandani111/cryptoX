@@ -13,7 +13,7 @@ html, body{
   width: 100%;
   place-items: center;
   background: transparent;
-  background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+  background: linear-gradient(315deg,#bd89d8 0%,#031bc8 74%);
 }
 ::selection{
   background: #ff80bf;
